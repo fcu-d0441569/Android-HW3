@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.intentActivity">
+
+    <Button
+        android:id="@+id/b_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/t_name"
+        android:layout_alignEnd="@+id/t_name"
+        android:layout_marginTop="193dp" />
+
+    <TextView
+        android:id="@+id/t_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="36dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/e_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/t_name"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
